@@ -1,0 +1,18 @@
+{
+  "name": "parse-express-cookie-session",
+  "version": "0.0.1",
+  "description": "Parse cookie session for local env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flovilmart/parse-express-cookie-session.git"
+  },
+  "author": "Florent Vilmart",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/flovilmart/parse-express-cookie-session/issues"
+  }
+}
