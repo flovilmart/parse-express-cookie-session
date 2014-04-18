@@ -1,5 +1,4 @@
 var Cookie = function(options){
-  console.log(options);
 }
 
 module.exports = function (options) {
