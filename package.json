@@ -1,6 +1,6 @@
 {
   "name": "parse-express-cookie-session",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parse cookie session for local env",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,8 @@
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/flovilmart/parse-express-cookie-session/issues"
+  },
+  "dependencies": {
+    "express": "~3.5.1"
   }
 }
