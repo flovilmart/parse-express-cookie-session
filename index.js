@@ -81,8 +81,6 @@ module.exports = function (options) {
       return next();
     }
 
-    var encryptionSecret = Parse.Cloud._expressCookieEncryptionKey();
-
     // Decrypt and parse the signed cookie.
     // Assume express.cookieParser already verified the signature and put the
     // cookie's contents at req.signedCookies[key].
