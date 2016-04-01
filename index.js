@@ -133,7 +133,7 @@ module.exports = function (options) {
       }
     });
   
-    if (options.fetchUser && (!_.isNull(Parse.User.current()) || !_.isUndefined(Parse.User.current()))) {
+    if (options.fetchUser && !(_.isNull(Parse.User.current()) || _.isUndefined(Parse.User.current()))) {
       Parse.User.current().fetch().then(function(user) {
         next();
       }, function() {
