@@ -1,6 +1,6 @@
 {
   "name": "parse-express-cookie-session",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Parse cookie session for local env",
   "main": "index.js",
   "scripts": {
